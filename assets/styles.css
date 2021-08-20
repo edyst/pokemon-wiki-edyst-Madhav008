@@ -359,10 +359,16 @@ table th {
   color: #8a8a8a;
 }
 
-.pok_trainer > div > h4,
-h6,
-span {
-  color: white !important;
+.pok_trainer > span {
+  color: white;
+}
+
+.pok_trainer > div > h4 {
+  color: white;
+}
+
+.pok_trainer > div > h6 {
+  color: white;
 }
 
 .Pokemon-generation {
