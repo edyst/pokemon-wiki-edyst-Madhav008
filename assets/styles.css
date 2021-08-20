@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir-Next", "Roboto";
+  font-size: 16px;
+}
+.navbar {
+  font-family: sans-serif;
+  padding-top: 10px;
+  align-items: baseline;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+img {
+  height: 35px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  color: grey;
+  font-weight: 500;
+}
+
+.apply-btn {
+  background-color: darkorange;
+  align-items: center;
+  border: none;
+  color: white;
+  padding: 5px 50px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 60px;
+  background-color: black;
+  opacity: 0.8;
+}
+.home h1 {
+  color: white;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.home h3 {
+  color: white;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 20%;
+  background-color: #4992ca;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.reg-btn {
+  width: 20%;
+  margin-top: 20px;
+  border: solid white;
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+}
+
+.info-btn {
+  background-color: white;
+  border: none;
+  width: 40%;
+  padding: 15px 0;
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.info-btn span {
+  font-weight: 900;
+  padding-right: 10px;
+}
+
+.poster {
+  padding: 50px 50px;
+  background-color: #4992ca;
+  color: white;
+
+  font-family: "Avenir-Next", "Roboto", sans-serif;
+  text-align: center;
+}
+.poster h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.poster h4 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.types {
+  margin-top: 20px;
+  display: flex;
+}
+
+.col i {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+}
