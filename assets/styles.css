@@ -13,23 +13,22 @@
   justify-content: space-between;
   background-color: white;
 }
-img {
+.navbar img {
   height: 35px;
   padding-left: 20px;
 }
 
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   float: right;
 }
-li {
+.navbar li {
   display: inline-block;
 }
-
-ul li a {
+.navbar ul li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -40,7 +39,7 @@ ul li a {
   font-weight: 500;
 }
 
-.apply-btn {
+.navbar .apply-btn {
   background-color: darkorange;
   align-items: center;
   border: none;
@@ -70,6 +69,7 @@ ul li a {
   width: 20%;
   background-color: #4992ca;
   padding: 15px 0;
+  color: white;
   text-align: center;
 }
 
@@ -116,6 +116,8 @@ ul li a {
 }
 .types {
   margin-top: 20px;
+  align-items: center;
+
   display: flex;
 }
 
@@ -128,4 +130,122 @@ ul li a {
   text-align: center;
   flex-direction: column;
   padding: 10px;
+}
+.statistics {
+  padding: 50px 50px;
+
+  text-align: center;
+}
+
+.statistics h1 {
+  font-size: 45px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.stats div {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.stats_col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.stats_col > span {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.stats_col > img {
+  margin-top: 10px;
+  width: 60%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.year > h1 {
+  font-size: 45px;
+}
+
+.pok_about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pok_about > img {
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin-right: 50px;
+}
+.pok_name_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pok_name_logo > h4 {
+  font-size: 30px;
+  color: grey;
+  font-weight: 200;
+}
+.pok_name_logo > h6 {
+  font-size: 18px;
+  color: grey;
+  font-weight: 100;
+}
+.pok_name_logo > img {
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  width: 110px;
+}
+
+.pok_about > span {
+  margin-left: 50px;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+}
+
+.qa_section {
+  background-color: #4992ca;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 60px 80px;
+}
+
+.qa_section > h2 {
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.qa_section > h3 {
+  font-size: 25px;
 }
